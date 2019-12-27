@@ -1,4 +1,4 @@
-# toxic_comment_analysis_by_LSTM
+# Toxic comment analysis by LSTM
 This project used LSTM to analysis comments' toxicity from Wikipedia, which originaly bring up by this kaggle competition
 (https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge#description)
 

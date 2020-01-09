@@ -1,12 +1,11 @@
 # Toxic comment analysis I
-This project used LSTM to analysis comments' toxicity from Wikipedia, which originaly bring up by this kaggle competition
+In this project, I implemented Long-short-term-memory (LSTM) Neural network to analysis comments' toxicity from Wikipedia, which was originaly offered Jigsaw and Google through this kaggle competition:
 (https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge#description)
 
 ## 1. Notebook of LSTM implementation and exploratory data analysis
 https://github.com/hhzzxx957/toxic_comment/blob/master/codes/improved-lstm-baseline-glove-dropout.ipynb
 
-## 2. Examples about Esemble modeling
-
+## 2. Examples about Ensemble modeling
 Here are the example codes used in the kaggle competition, input files are not included.
 ### (1) Out-of-folder(OOF) stacking
 https://github.com/hhzzxx957/toxic_comment/blob/master/codes/oof_stack_regime.ipynb
@@ -17,8 +16,9 @@ https://github.com/hhzzxx957/toxic_comment/blob/master/codes/geomean.ipynb
 http://hzx957.pythonanywhere.com/
 
 # Toxic comment analysis II
-This project used BERT to analysis comments' toxicity from Wikipedia, which originaly bring up by this kaggle competition
-(https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/overview/description)
+To solve the identity biase problem, Jigsaw and Google proposed another competition on Kaggle.
+(https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/overview/description)  
+In this project, I used state-of-art NLP technique BERT to analysis comments' toxicity from Wikipedia.
 
 ## 1. Notebook of BERT implementation
 https://github.com/hhzzxx957/toxic_comment/blob/master/codes/toxic-bert.ipynb

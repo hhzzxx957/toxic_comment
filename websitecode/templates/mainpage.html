@@ -13,10 +13,9 @@
 
     <div class="form-group">
         <label for="comment">This webapp will test the comments' toxicity, simply input the words you want to test :</label>
-        <input type="text" class="form-control" id="comment" name="comment" placeholder="Please input test comment">
+        <input type="text" class="form-control" id="comment" name="comment" placeholder="Please input test comment. Press 'Enter' when finish.">
     </div>
 
-    <button type="submit" class="btn btn-success">Submit</button>
   </form>
 
   {% with messages = get_flashed_messages(with_categories=true) %}
